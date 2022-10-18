@@ -20,7 +20,9 @@ The source code of the four frameworks is included in the Networks folder, along
 ## Reference paper
 
 [Cheetah: Lean and Fast Secure Two-Party Deep Neural Network Inference](https://eprint.iacr.org/2022/207)
+
 Zhicong Huang, Wen-jie Lu, Cheng Hong, and Jiansheng Ding
+
 *USENIX Security 2022*
 
 [CrypTFlow2: Practical 2-Party Secure Inference](https://eprint.iacr.org/2020/1002)  
