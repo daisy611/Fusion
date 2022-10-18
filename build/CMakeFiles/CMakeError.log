@@ -1,0 +1,500 @@
+Detecting CXX compiler ABI info failed to compile with the following output:
+Change Dir: /Users/zhaoa/OneDrive - 华南师范大学/桌面/daisy/第三篇论文/code/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/anaconda3/bin/ninja cmTC_8fdc9 && [1/2] Building CXX object CMakeFiles/cmTC_8fdc9.dir/CMakeCXXCompilerABI.cpp.o
+g++-8: warning: '12.0' is not valid for 'mmacosx-version-min'
+
+Using built-in specs.
+COLLECT_GCC=/usr/local/bin/g++-8
+Target: x86_64-apple-darwin20
+Configured with: ../configure --prefix=/usr/local/Cellar/gcc@8/8.5.0 --libdir=/usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8 --disable-nls --enable-checking=release --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-8 --with-gmp=/usr/local/opt/gmp --with-mpfr=/usr/local/opt/mpfr --with-mpc=/usr/local/opt/libmpc --with-isl=/usr/local/opt/isl --with-pkgversion='Homebrew GCC 8.5.0' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --build=x86_64-apple-darwin20 --with-system-zlib --disable-multilib --with-native-system-header-dir=/usr/include --with-sysroot=/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk --without-build-config
+Thread model: posix
+gcc version 8.5.0 (Homebrew GCC 8.5.0) 
+COLLECT_GCC_OPTIONS='-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk' '-v' '-o' 'CMakeFiles/cmTC_8fdc9.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=core2'
+ /usr/local/Cellar/gcc@8/8.5.0/libexec/gcc/x86_64-apple-darwin20/8.5.0/cc1plus -quiet -v -D__DYNAMIC__ -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk /Applications/CMake.app/Contents/share/cmake-3.23/Modules/CMakeCXXCompilerABI.cpp -fPIC -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=core2 -auxbase-strip CMakeFiles/cmTC_8fdc9.dir/CMakeCXXCompilerABI.cpp.o -version -o /var/folders/mf/ln77q_8169b22g0vbjzzps1h0000gn/T//cc8wBXmw.s
+GNU C++14 (Homebrew GCC 8.5.0) version 8.5.0 (x86_64-apple-darwin20)
+	compiled by GNU C version 8.5.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/local/include"
+ignoring nonexistent directory "/usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0/../../../../../../x86_64-apple-darwin20/include"
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0/../../../../../../include/c++/8.5.0
+ /usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0/../../../../../../include/c++/8.5.0/x86_64-apple-darwin20
+ /usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0/../../../../../../include/c++/8.5.0/backward
+ /usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0/include
+ /usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0/include-fixed
+ /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/System/Library/Frameworks
+End of search list.
+GNU C++14 (Homebrew GCC 8.5.0) version 8.5.0 (x86_64-apple-darwin20)
+	compiled by GNU C version 8.5.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 6315389f2d526ef35bef82e932f943bf
+COLLECT_GCC_OPTIONS='-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk' '-v' '-o' 'CMakeFiles/cmTC_8fdc9.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=core2'
+ as -arch x86_64 -v -force_cpusubtype_ALL -o CMakeFiles/cmTC_8fdc9.dir/CMakeCXXCompilerABI.cpp.o /var/folders/mf/ln77q_8169b22g0vbjzzps1h0000gn/T//cc8wBXmw.s
+Apple clang version 13.1.6 (clang-1316.0.21.2.5)
+Target: x86_64-apple-darwin21.1.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1as -triple x86_64-apple-macosx12.0.0 -filetype obj -main-file-name cc8wBXmw.s -target-cpu penryn "-fdebug-compilation-dir=/Users/zhaoa/OneDrive - 华南师范大学/桌面/daisy/第三篇论文/code/build/CMakeFiles/CMakeTmp" -dwarf-debug-producer "Apple clang version 13.1.6 (clang-1316.0.21.2.5)" -dwarf-version=4 -mrelocation-model pic --mrelax-relocations -mllvm -disable-aligned-alloc-awareness=1 -o CMakeFiles/cmTC_8fdc9.dir/CMakeCXXCompilerABI.cpp.o /var/folders/mf/ln77q_8169b22g0vbjzzps1h0000gn/T//cc8wBXmw.s
+COMPILER_PATH=/usr/local/Cellar/gcc@8/8.5.0/libexec/gcc/x86_64-apple-darwin20/8.5.0/:/usr/local/Cellar/gcc@8/8.5.0/libexec/gcc/x86_64-apple-darwin20/8.5.0/:/usr/local/Cellar/gcc@8/8.5.0/libexec/gcc/x86_64-apple-darwin20/:/usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0/:/usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/
+LIBRARY_PATH=/usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0/:/usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0/../../../
+COLLECT_GCC_OPTIONS='-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk' '-v' '-o' 'CMakeFiles/cmTC_8fdc9.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=core2'
+[2/2] Linking CXX executable cmTC_8fdc9
+FAILED: cmTC_8fdc9 
+: && /usr/local/bin/g++-8 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v -Wl,-v CMakeFiles/cmTC_8fdc9.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_8fdc9   && :
+g++-8: warning: '12.0' is not valid for 'mmacosx-version-min'
+
+Using built-in specs.
+COLLECT_GCC=/usr/local/bin/g++-8
+COLLECT_LTO_WRAPPER=/usr/local/Cellar/gcc@8/8.5.0/libexec/gcc/x86_64-apple-darwin20/8.5.0/lto-wrapper
+Target: x86_64-apple-darwin20
+Configured with: ../configure --prefix=/usr/local/Cellar/gcc@8/8.5.0 --libdir=/usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8 --disable-nls --enable-checking=release --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-8 --with-gmp=/usr/local/opt/gmp --with-mpfr=/usr/local/opt/mpfr --with-mpc=/usr/local/opt/libmpc --with-isl=/usr/local/opt/isl --with-pkgversion='Homebrew GCC 8.5.0' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --build=x86_64-apple-darwin20 --with-system-zlib --disable-multilib --with-native-system-header-dir=/usr/include --with-sysroot=/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk --without-build-config
+Thread model: posix
+gcc version 8.5.0 (Homebrew GCC 8.5.0) 
+COMPILER_PATH=/usr/local/Cellar/gcc@8/8.5.0/libexec/gcc/x86_64-apple-darwin20/8.5.0/:/usr/local/Cellar/gcc@8/8.5.0/libexec/gcc/x86_64-apple-darwin20/8.5.0/:/usr/local/Cellar/gcc@8/8.5.0/libexec/gcc/x86_64-apple-darwin20/:/usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0/:/usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/
+LIBRARY_PATH=/usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0/:/usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0/../../../
+COLLECT_GCC_OPTIONS='-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk' '-v' '-o' 'cmTC_8fdc9' '-shared-libgcc' '-mtune=core2'
+ /usr/local/Cellar/gcc@8/8.5.0/libexec/gcc/x86_64-apple-darwin20/8.5.0/collect2 -dynamic -arch x86_64 -multiply_defined suppress -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -weak_reference_mismatches non-weak -o cmTC_8fdc9 -lcrt1.o /usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0/crt3.o -L/usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0 -L/usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_8fdc9.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lgcc_s.10.4 -lgcc_ext.10.4 -lgcc -lSystem -v
+collect2 version 8.5.0
+/usr/bin/ld -dynamic -arch x86_64 -multiply_defined suppress -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -weak_reference_mismatches non-weak -o cmTC_8fdc9 -lcrt1.o /usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0/crt3.o -L/usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0 -L/usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_8fdc9.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lgcc_s.10.4 -lgcc_ext.10.4 -lgcc -lSystem -v
+@(#)PROGRAM:ld  PROJECT:ld64-764
+BUILD 11:22:50 Apr 28 2022
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+@(#)PROGRAM:ld  PROJECT:ld64-764
+BUILD 11:22:50 Apr 28 2022
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0
+	/usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8
+	/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/lib
+Framework search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/
+ld: library not found for -lgcc_s.10.4
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+
+
+Determining if the CXX compiler works failed with the following output:
+Change Dir: /Users/zhaoa/OneDrive - 华南师范大学/桌面/daisy/第三篇论文/code/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/anaconda3/bin/ninja cmTC_09ba4 && [1/2] Building CXX object CMakeFiles/cmTC_09ba4.dir/testCXXCompiler.cxx.o
+g++-8: warning: '12.0' is not valid for 'mmacosx-version-min'
+
+[2/2] Linking CXX executable cmTC_09ba4
+FAILED: cmTC_09ba4 
+: && /usr/local/bin/g++-8 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTC_09ba4.dir/testCXXCompiler.cxx.o -o cmTC_09ba4   && :
+g++-8: warning: '12.0' is not valid for 'mmacosx-version-min'
+
+ld: library not found for -lgcc_s.10.4
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+
+Detecting CXX compiler ABI info failed to compile with the following output:
+Change Dir: /Users/zhaoa/OneDrive - 华南师范大学/桌面/daisy/第三篇论文/code/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/anaconda3/bin/ninja cmTC_ca5a3 && [1/2] Building CXX object CMakeFiles/cmTC_ca5a3.dir/CMakeCXXCompilerABI.cpp.o
+g++-8: warning: '12.0' is not valid for 'mmacosx-version-min'
+
+Using built-in specs.
+COLLECT_GCC=/usr/local/bin/g++-8
+Target: x86_64-apple-darwin20
+Configured with: ../configure --prefix=/usr/local/Cellar/gcc@8/8.5.0 --libdir=/usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8 --disable-nls --enable-checking=release --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-8 --with-gmp=/usr/local/opt/gmp --with-mpfr=/usr/local/opt/mpfr --with-mpc=/usr/local/opt/libmpc --with-isl=/usr/local/opt/isl --with-pkgversion='Homebrew GCC 8.5.0' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --build=x86_64-apple-darwin20 --with-system-zlib --disable-multilib --with-native-system-header-dir=/usr/include --with-sysroot=/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk --without-build-config
+Thread model: posix
+gcc version 8.5.0 (Homebrew GCC 8.5.0) 
+COLLECT_GCC_OPTIONS='-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk' '-v' '-o' 'CMakeFiles/cmTC_ca5a3.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=core2'
+ /usr/local/Cellar/gcc@8/8.5.0/libexec/gcc/x86_64-apple-darwin20/8.5.0/cc1plus -quiet -v -D__DYNAMIC__ -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk /Applications/CMake.app/Contents/share/cmake-3.23/Modules/CMakeCXXCompilerABI.cpp -fPIC -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=core2 -auxbase-strip CMakeFiles/cmTC_ca5a3.dir/CMakeCXXCompilerABI.cpp.o -version -o /var/folders/mf/ln77q_8169b22g0vbjzzps1h0000gn/T//ccnCjBrt.s
+GNU C++14 (Homebrew GCC 8.5.0) version 8.5.0 (x86_64-apple-darwin20)
+	compiled by GNU C version 8.5.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/local/include"
+ignoring nonexistent directory "/usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0/../../../../../../x86_64-apple-darwin20/include"
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0/../../../../../../include/c++/8.5.0
+ /usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0/../../../../../../include/c++/8.5.0/x86_64-apple-darwin20
+ /usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0/../../../../../../include/c++/8.5.0/backward
+ /usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0/include
+ /usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0/include-fixed
+ /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/System/Library/Frameworks
+End of search list.
+GNU C++14 (Homebrew GCC 8.5.0) version 8.5.0 (x86_64-apple-darwin20)
+	compiled by GNU C version 8.5.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 6315389f2d526ef35bef82e932f943bf
+COLLECT_GCC_OPTIONS='-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk' '-v' '-o' 'CMakeFiles/cmTC_ca5a3.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=core2'
+ as -arch x86_64 -v -force_cpusubtype_ALL -o CMakeFiles/cmTC_ca5a3.dir/CMakeCXXCompilerABI.cpp.o /var/folders/mf/ln77q_8169b22g0vbjzzps1h0000gn/T//ccnCjBrt.s
+Apple clang version 13.1.6 (clang-1316.0.21.2.5)
+Target: x86_64-apple-darwin21.1.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1as -triple x86_64-apple-macosx12.0.0 -filetype obj -main-file-name ccnCjBrt.s -target-cpu penryn "-fdebug-compilation-dir=/Users/zhaoa/OneDrive - 华南师范大学/桌面/daisy/第三篇论文/code/build/CMakeFiles/CMakeTmp" -dwarf-debug-producer "Apple clang version 13.1.6 (clang-1316.0.21.2.5)" -dwarf-version=4 -mrelocation-model pic --mrelax-relocations -mllvm -disable-aligned-alloc-awareness=1 -o CMakeFiles/cmTC_ca5a3.dir/CMakeCXXCompilerABI.cpp.o /var/folders/mf/ln77q_8169b22g0vbjzzps1h0000gn/T//ccnCjBrt.s
+COMPILER_PATH=/usr/local/Cellar/gcc@8/8.5.0/libexec/gcc/x86_64-apple-darwin20/8.5.0/:/usr/local/Cellar/gcc@8/8.5.0/libexec/gcc/x86_64-apple-darwin20/8.5.0/:/usr/local/Cellar/gcc@8/8.5.0/libexec/gcc/x86_64-apple-darwin20/:/usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0/:/usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/
+LIBRARY_PATH=/usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0/:/usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0/../../../
+COLLECT_GCC_OPTIONS='-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk' '-v' '-o' 'CMakeFiles/cmTC_ca5a3.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=core2'
+[2/2] Linking CXX executable cmTC_ca5a3
+FAILED: cmTC_ca5a3 
+: && /usr/local/bin/g++-8 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v -Wl,-v CMakeFiles/cmTC_ca5a3.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_ca5a3   && :
+g++-8: warning: '12.0' is not valid for 'mmacosx-version-min'
+
+Using built-in specs.
+COLLECT_GCC=/usr/local/bin/g++-8
+COLLECT_LTO_WRAPPER=/usr/local/Cellar/gcc@8/8.5.0/libexec/gcc/x86_64-apple-darwin20/8.5.0/lto-wrapper
+Target: x86_64-apple-darwin20
+Configured with: ../configure --prefix=/usr/local/Cellar/gcc@8/8.5.0 --libdir=/usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8 --disable-nls --enable-checking=release --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-8 --with-gmp=/usr/local/opt/gmp --with-mpfr=/usr/local/opt/mpfr --with-mpc=/usr/local/opt/libmpc --with-isl=/usr/local/opt/isl --with-pkgversion='Homebrew GCC 8.5.0' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --build=x86_64-apple-darwin20 --with-system-zlib --disable-multilib --with-native-system-header-dir=/usr/include --with-sysroot=/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk --without-build-config
+Thread model: posix
+gcc version 8.5.0 (Homebrew GCC 8.5.0) 
+COMPILER_PATH=/usr/local/Cellar/gcc@8/8.5.0/libexec/gcc/x86_64-apple-darwin20/8.5.0/:/usr/local/Cellar/gcc@8/8.5.0/libexec/gcc/x86_64-apple-darwin20/8.5.0/:/usr/local/Cellar/gcc@8/8.5.0/libexec/gcc/x86_64-apple-darwin20/:/usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0/:/usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/
+LIBRARY_PATH=/usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0/:/usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0/../../../
+COLLECT_GCC_OPTIONS='-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk' '-v' '-o' 'cmTC_ca5a3' '-shared-libgcc' '-mtune=core2'
+ /usr/local/Cellar/gcc@8/8.5.0/libexec/gcc/x86_64-apple-darwin20/8.5.0/collect2 -dynamic -arch x86_64 -multiply_defined suppress -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -weak_reference_mismatches non-weak -o cmTC_ca5a3 -lcrt1.o /usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0/crt3.o -L/usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0 -L/usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_ca5a3.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lgcc_s.10.4 -lgcc_ext.10.4 -lgcc -lSystem -v
+collect2 version 8.5.0
+/usr/bin/ld -dynamic -arch x86_64 -multiply_defined suppress -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -weak_reference_mismatches non-weak -o cmTC_ca5a3 -lcrt1.o /usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0/crt3.o -L/usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0 -L/usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_ca5a3.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lgcc_s.10.4 -lgcc_ext.10.4 -lgcc -lSystem -v
+@(#)PROGRAM:ld  PROJECT:ld64-764
+BUILD 11:22:50 Apr 28 2022
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+@(#)PROGRAM:ld  PROJECT:ld64-764
+BUILD 11:22:50 Apr 28 2022
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0
+	/usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8
+	/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/lib
+Framework search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/
+ld: library not found for -lgcc_s.10.4
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+
+
+Determining if the CXX compiler works failed with the following output:
+Change Dir: /Users/zhaoa/OneDrive - 华南师范大学/桌面/daisy/第三篇论文/code/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/anaconda3/bin/ninja cmTC_68e58 && [1/2] Building CXX object CMakeFiles/cmTC_68e58.dir/testCXXCompiler.cxx.o
+g++-8: warning: '12.0' is not valid for 'mmacosx-version-min'
+
+[2/2] Linking CXX executable cmTC_68e58
+FAILED: cmTC_68e58 
+: && /usr/local/bin/g++-8 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTC_68e58.dir/testCXXCompiler.cxx.o -o cmTC_68e58   && :
+g++-8: warning: '12.0' is not valid for 'mmacosx-version-min'
+
+ld: library not found for -lgcc_s.10.4
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+
+Detecting CXX compiler ABI info failed to compile with the following output:
+Change Dir: /Users/zhaoa/OneDrive - 华南师范大学/桌面/daisy/第三篇论文/code/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/anaconda3/bin/ninja cmTC_0ce24 && [1/2] Building CXX object CMakeFiles/cmTC_0ce24.dir/CMakeCXXCompilerABI.cpp.o
+g++-8: warning: '12.0' is not valid for 'mmacosx-version-min'
+
+Using built-in specs.
+COLLECT_GCC=/usr/local/bin/g++-8
+Target: x86_64-apple-darwin20
+Configured with: ../configure --prefix=/usr/local/Cellar/gcc@8/8.5.0 --libdir=/usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8 --disable-nls --enable-checking=release --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-8 --with-gmp=/usr/local/opt/gmp --with-mpfr=/usr/local/opt/mpfr --with-mpc=/usr/local/opt/libmpc --with-isl=/usr/local/opt/isl --with-pkgversion='Homebrew GCC 8.5.0' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --build=x86_64-apple-darwin20 --with-system-zlib --disable-multilib --with-native-system-header-dir=/usr/include --with-sysroot=/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk --without-build-config
+Thread model: posix
+gcc version 8.5.0 (Homebrew GCC 8.5.0) 
+COLLECT_GCC_OPTIONS='-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk' '-v' '-o' 'CMakeFiles/cmTC_0ce24.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=core2'
+ /usr/local/Cellar/gcc@8/8.5.0/libexec/gcc/x86_64-apple-darwin20/8.5.0/cc1plus -quiet -v -D__DYNAMIC__ -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk /Applications/CMake.app/Contents/share/cmake-3.23/Modules/CMakeCXXCompilerABI.cpp -fPIC -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=core2 -auxbase-strip CMakeFiles/cmTC_0ce24.dir/CMakeCXXCompilerABI.cpp.o -version -o /var/folders/mf/ln77q_8169b22g0vbjzzps1h0000gn/T//ccr7zD5t.s
+GNU C++14 (Homebrew GCC 8.5.0) version 8.5.0 (x86_64-apple-darwin20)
+	compiled by GNU C version 8.5.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/local/include"
+ignoring nonexistent directory "/usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0/../../../../../../x86_64-apple-darwin20/include"
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0/../../../../../../include/c++/8.5.0
+ /usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0/../../../../../../include/c++/8.5.0/x86_64-apple-darwin20
+ /usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0/../../../../../../include/c++/8.5.0/backward
+ /usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0/include
+ /usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0/include-fixed
+ /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/System/Library/Frameworks
+End of search list.
+GNU C++14 (Homebrew GCC 8.5.0) version 8.5.0 (x86_64-apple-darwin20)
+	compiled by GNU C version 8.5.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 6315389f2d526ef35bef82e932f943bf
+COLLECT_GCC_OPTIONS='-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk' '-v' '-o' 'CMakeFiles/cmTC_0ce24.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=core2'
+ as -arch x86_64 -v -force_cpusubtype_ALL -o CMakeFiles/cmTC_0ce24.dir/CMakeCXXCompilerABI.cpp.o /var/folders/mf/ln77q_8169b22g0vbjzzps1h0000gn/T//ccr7zD5t.s
+Apple clang version 13.1.6 (clang-1316.0.21.2.5)
+Target: x86_64-apple-darwin21.1.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1as -triple x86_64-apple-macosx12.0.0 -filetype obj -main-file-name ccr7zD5t.s -target-cpu penryn "-fdebug-compilation-dir=/Users/zhaoa/OneDrive - 华南师范大学/桌面/daisy/第三篇论文/code/build/CMakeFiles/CMakeTmp" -dwarf-debug-producer "Apple clang version 13.1.6 (clang-1316.0.21.2.5)" -dwarf-version=4 -mrelocation-model pic --mrelax-relocations -mllvm -disable-aligned-alloc-awareness=1 -o CMakeFiles/cmTC_0ce24.dir/CMakeCXXCompilerABI.cpp.o /var/folders/mf/ln77q_8169b22g0vbjzzps1h0000gn/T//ccr7zD5t.s
+COMPILER_PATH=/usr/local/Cellar/gcc@8/8.5.0/libexec/gcc/x86_64-apple-darwin20/8.5.0/:/usr/local/Cellar/gcc@8/8.5.0/libexec/gcc/x86_64-apple-darwin20/8.5.0/:/usr/local/Cellar/gcc@8/8.5.0/libexec/gcc/x86_64-apple-darwin20/:/usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0/:/usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/
+LIBRARY_PATH=/usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0/:/usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0/../../../
+COLLECT_GCC_OPTIONS='-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk' '-v' '-o' 'CMakeFiles/cmTC_0ce24.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=core2'
+[2/2] Linking CXX executable cmTC_0ce24
+FAILED: cmTC_0ce24 
+: && /usr/local/bin/g++-8 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v -Wl,-v CMakeFiles/cmTC_0ce24.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_0ce24   && :
+g++-8: warning: '12.0' is not valid for 'mmacosx-version-min'
+
+Using built-in specs.
+COLLECT_GCC=/usr/local/bin/g++-8
+COLLECT_LTO_WRAPPER=/usr/local/Cellar/gcc@8/8.5.0/libexec/gcc/x86_64-apple-darwin20/8.5.0/lto-wrapper
+Target: x86_64-apple-darwin20
+Configured with: ../configure --prefix=/usr/local/Cellar/gcc@8/8.5.0 --libdir=/usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8 --disable-nls --enable-checking=release --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-8 --with-gmp=/usr/local/opt/gmp --with-mpfr=/usr/local/opt/mpfr --with-mpc=/usr/local/opt/libmpc --with-isl=/usr/local/opt/isl --with-pkgversion='Homebrew GCC 8.5.0' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --build=x86_64-apple-darwin20 --with-system-zlib --disable-multilib --with-native-system-header-dir=/usr/include --with-sysroot=/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk --without-build-config
+Thread model: posix
+gcc version 8.5.0 (Homebrew GCC 8.5.0) 
+COMPILER_PATH=/usr/local/Cellar/gcc@8/8.5.0/libexec/gcc/x86_64-apple-darwin20/8.5.0/:/usr/local/Cellar/gcc@8/8.5.0/libexec/gcc/x86_64-apple-darwin20/8.5.0/:/usr/local/Cellar/gcc@8/8.5.0/libexec/gcc/x86_64-apple-darwin20/:/usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0/:/usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/
+LIBRARY_PATH=/usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0/:/usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0/../../../
+COLLECT_GCC_OPTIONS='-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk' '-v' '-o' 'cmTC_0ce24' '-shared-libgcc' '-mtune=core2'
+ /usr/local/Cellar/gcc@8/8.5.0/libexec/gcc/x86_64-apple-darwin20/8.5.0/collect2 -dynamic -arch x86_64 -multiply_defined suppress -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -weak_reference_mismatches non-weak -o cmTC_0ce24 -lcrt1.o /usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0/crt3.o -L/usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0 -L/usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_0ce24.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lgcc_s.10.4 -lgcc_ext.10.4 -lgcc -lSystem -v
+collect2 version 8.5.0
+/usr/bin/ld -dynamic -arch x86_64 -multiply_defined suppress -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -weak_reference_mismatches non-weak -o cmTC_0ce24 -lcrt1.o /usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0/crt3.o -L/usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0 -L/usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_0ce24.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lgcc_s.10.4 -lgcc_ext.10.4 -lgcc -lSystem -v
+@(#)PROGRAM:ld  PROJECT:ld64-764
+BUILD 11:22:50 Apr 28 2022
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+@(#)PROGRAM:ld  PROJECT:ld64-764
+BUILD 11:22:50 Apr 28 2022
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0
+	/usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8
+	/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/lib
+Framework search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/
+ld: library not found for -lgcc_s.10.4
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+
+
+Determining if the CXX compiler works failed with the following output:
+Change Dir: /Users/zhaoa/OneDrive - 华南师范大学/桌面/daisy/第三篇论文/code/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/anaconda3/bin/ninja cmTC_c6d8b && [1/2] Building CXX object CMakeFiles/cmTC_c6d8b.dir/testCXXCompiler.cxx.o
+g++-8: warning: '12.0' is not valid for 'mmacosx-version-min'
+
+[2/2] Linking CXX executable cmTC_c6d8b
+FAILED: cmTC_c6d8b 
+: && /usr/local/bin/g++-8 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTC_c6d8b.dir/testCXXCompiler.cxx.o -o cmTC_c6d8b   && :
+g++-8: warning: '12.0' is not valid for 'mmacosx-version-min'
+
+ld: library not found for -lgcc_s.10.4
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+
+Detecting CXX compiler ABI info failed to compile with the following output:
+Change Dir: /Users/zhaoa/OneDrive - 华南师范大学/桌面/daisy/第三篇论文/code/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/anaconda3/bin/ninja cmTC_12168 && [1/2] Building CXX object CMakeFiles/cmTC_12168.dir/CMakeCXXCompilerABI.cpp.o
+g++-8: warning: '12.0' is not valid for 'mmacosx-version-min'
+
+Using built-in specs.
+COLLECT_GCC=/usr/local/bin/g++-8
+Target: x86_64-apple-darwin20
+Configured with: ../configure --prefix=/usr/local/Cellar/gcc@8/8.5.0 --libdir=/usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8 --disable-nls --enable-checking=release --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-8 --with-gmp=/usr/local/opt/gmp --with-mpfr=/usr/local/opt/mpfr --with-mpc=/usr/local/opt/libmpc --with-isl=/usr/local/opt/isl --with-pkgversion='Homebrew GCC 8.5.0' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --build=x86_64-apple-darwin20 --with-system-zlib --disable-multilib --with-native-system-header-dir=/usr/include --with-sysroot=/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk --without-build-config
+Thread model: posix
+gcc version 8.5.0 (Homebrew GCC 8.5.0) 
+COLLECT_GCC_OPTIONS='-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk' '-v' '-o' 'CMakeFiles/cmTC_12168.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=core2'
+ /usr/local/Cellar/gcc@8/8.5.0/libexec/gcc/x86_64-apple-darwin20/8.5.0/cc1plus -quiet -v -D__DYNAMIC__ -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk /Applications/CMake.app/Contents/share/cmake-3.23/Modules/CMakeCXXCompilerABI.cpp -fPIC -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=core2 -auxbase-strip CMakeFiles/cmTC_12168.dir/CMakeCXXCompilerABI.cpp.o -version -o /var/folders/mf/ln77q_8169b22g0vbjzzps1h0000gn/T//ccpsme6T.s
+GNU C++14 (Homebrew GCC 8.5.0) version 8.5.0 (x86_64-apple-darwin20)
+	compiled by GNU C version 8.5.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/local/include"
+ignoring nonexistent directory "/usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0/../../../../../../x86_64-apple-darwin20/include"
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0/../../../../../../include/c++/8.5.0
+ /usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0/../../../../../../include/c++/8.5.0/x86_64-apple-darwin20
+ /usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0/../../../../../../include/c++/8.5.0/backward
+ /usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0/include
+ /usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0/include-fixed
+ /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/System/Library/Frameworks
+End of search list.
+GNU C++14 (Homebrew GCC 8.5.0) version 8.5.0 (x86_64-apple-darwin20)
+	compiled by GNU C version 8.5.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 6315389f2d526ef35bef82e932f943bf
+COLLECT_GCC_OPTIONS='-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk' '-v' '-o' 'CMakeFiles/cmTC_12168.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=core2'
+ as -arch x86_64 -v -force_cpusubtype_ALL -o CMakeFiles/cmTC_12168.dir/CMakeCXXCompilerABI.cpp.o /var/folders/mf/ln77q_8169b22g0vbjzzps1h0000gn/T//ccpsme6T.s
+Apple clang version 13.1.6 (clang-1316.0.21.2.5)
+Target: x86_64-apple-darwin21.1.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1as -triple x86_64-apple-macosx12.0.0 -filetype obj -main-file-name ccpsme6T.s -target-cpu penryn "-fdebug-compilation-dir=/Users/zhaoa/OneDrive - 华南师范大学/桌面/daisy/第三篇论文/code/build/CMakeFiles/CMakeTmp" -dwarf-debug-producer "Apple clang version 13.1.6 (clang-1316.0.21.2.5)" -dwarf-version=4 -mrelocation-model pic --mrelax-relocations -mllvm -disable-aligned-alloc-awareness=1 -o CMakeFiles/cmTC_12168.dir/CMakeCXXCompilerABI.cpp.o /var/folders/mf/ln77q_8169b22g0vbjzzps1h0000gn/T//ccpsme6T.s
+COMPILER_PATH=/usr/local/Cellar/gcc@8/8.5.0/libexec/gcc/x86_64-apple-darwin20/8.5.0/:/usr/local/Cellar/gcc@8/8.5.0/libexec/gcc/x86_64-apple-darwin20/8.5.0/:/usr/local/Cellar/gcc@8/8.5.0/libexec/gcc/x86_64-apple-darwin20/:/usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0/:/usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/
+LIBRARY_PATH=/usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0/:/usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0/../../../
+COLLECT_GCC_OPTIONS='-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk' '-v' '-o' 'CMakeFiles/cmTC_12168.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=core2'
+[2/2] Linking CXX executable cmTC_12168
+FAILED: cmTC_12168 
+: && /usr/local/bin/g++-8 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v -Wl,-v CMakeFiles/cmTC_12168.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_12168   && :
+g++-8: warning: '12.0' is not valid for 'mmacosx-version-min'
+
+Using built-in specs.
+COLLECT_GCC=/usr/local/bin/g++-8
+COLLECT_LTO_WRAPPER=/usr/local/Cellar/gcc@8/8.5.0/libexec/gcc/x86_64-apple-darwin20/8.5.0/lto-wrapper
+Target: x86_64-apple-darwin20
+Configured with: ../configure --prefix=/usr/local/Cellar/gcc@8/8.5.0 --libdir=/usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8 --disable-nls --enable-checking=release --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-8 --with-gmp=/usr/local/opt/gmp --with-mpfr=/usr/local/opt/mpfr --with-mpc=/usr/local/opt/libmpc --with-isl=/usr/local/opt/isl --with-pkgversion='Homebrew GCC 8.5.0' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --build=x86_64-apple-darwin20 --with-system-zlib --disable-multilib --with-native-system-header-dir=/usr/include --with-sysroot=/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk --without-build-config
+Thread model: posix
+gcc version 8.5.0 (Homebrew GCC 8.5.0) 
+COMPILER_PATH=/usr/local/Cellar/gcc@8/8.5.0/libexec/gcc/x86_64-apple-darwin20/8.5.0/:/usr/local/Cellar/gcc@8/8.5.0/libexec/gcc/x86_64-apple-darwin20/8.5.0/:/usr/local/Cellar/gcc@8/8.5.0/libexec/gcc/x86_64-apple-darwin20/:/usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0/:/usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/
+LIBRARY_PATH=/usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0/:/usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0/../../../
+COLLECT_GCC_OPTIONS='-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk' '-v' '-o' 'cmTC_12168' '-shared-libgcc' '-mtune=core2'
+ /usr/local/Cellar/gcc@8/8.5.0/libexec/gcc/x86_64-apple-darwin20/8.5.0/collect2 -dynamic -arch x86_64 -multiply_defined suppress -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -weak_reference_mismatches non-weak -o cmTC_12168 -lcrt1.o /usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0/crt3.o -L/usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0 -L/usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_12168.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lgcc_s.10.4 -lgcc_ext.10.4 -lgcc -lSystem -v
+collect2 version 8.5.0
+/usr/bin/ld -dynamic -arch x86_64 -multiply_defined suppress -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -weak_reference_mismatches non-weak -o cmTC_12168 -lcrt1.o /usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0/crt3.o -L/usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0 -L/usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_12168.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lgcc_s.10.4 -lgcc_ext.10.4 -lgcc -lSystem -v
+@(#)PROGRAM:ld  PROJECT:ld64-764
+BUILD 11:22:50 Apr 28 2022
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+@(#)PROGRAM:ld  PROJECT:ld64-764
+BUILD 11:22:50 Apr 28 2022
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0
+	/usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8
+	/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/lib
+Framework search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/
+ld: library not found for -lgcc_s.10.4
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+
+
+Determining if the CXX compiler works failed with the following output:
+Change Dir: /Users/zhaoa/OneDrive - 华南师范大学/桌面/daisy/第三篇论文/code/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/anaconda3/bin/ninja cmTC_bc115 && [1/2] Building CXX object CMakeFiles/cmTC_bc115.dir/testCXXCompiler.cxx.o
+g++-8: warning: '12.0' is not valid for 'mmacosx-version-min'
+
+[2/2] Linking CXX executable cmTC_bc115
+FAILED: cmTC_bc115 
+: && /usr/local/bin/g++-8 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTC_bc115.dir/testCXXCompiler.cxx.o -o cmTC_bc115   && :
+g++-8: warning: '12.0' is not valid for 'mmacosx-version-min'
+
+ld: library not found for -lgcc_s.10.4
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+
+Detecting CXX compiler ABI info failed to compile with the following output:
+Change Dir: /Users/zhaoa/OneDrive - 华南师范大学/桌面/daisy/第三篇论文/code/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/anaconda3/bin/ninja cmTC_8007e && [1/2] Building CXX object CMakeFiles/cmTC_8007e.dir/CMakeCXXCompilerABI.cpp.o
+g++-8: warning: '12.0' is not valid for 'mmacosx-version-min'
+
+Using built-in specs.
+COLLECT_GCC=/usr/local/bin/g++-8
+Target: x86_64-apple-darwin20
+Configured with: ../configure --prefix=/usr/local/Cellar/gcc@8/8.5.0 --libdir=/usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8 --disable-nls --enable-checking=release --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-8 --with-gmp=/usr/local/opt/gmp --with-mpfr=/usr/local/opt/mpfr --with-mpc=/usr/local/opt/libmpc --with-isl=/usr/local/opt/isl --with-pkgversion='Homebrew GCC 8.5.0' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --build=x86_64-apple-darwin20 --with-system-zlib --disable-multilib --with-native-system-header-dir=/usr/include --with-sysroot=/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk --without-build-config
+Thread model: posix
+gcc version 8.5.0 (Homebrew GCC 8.5.0) 
+COLLECT_GCC_OPTIONS='-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk' '-v' '-o' 'CMakeFiles/cmTC_8007e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=core2'
+ /usr/local/Cellar/gcc@8/8.5.0/libexec/gcc/x86_64-apple-darwin20/8.5.0/cc1plus -quiet -v -D__DYNAMIC__ -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk /Applications/CMake.app/Contents/share/cmake-3.23/Modules/CMakeCXXCompilerABI.cpp -fPIC -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=core2 -auxbase-strip CMakeFiles/cmTC_8007e.dir/CMakeCXXCompilerABI.cpp.o -version -o /var/folders/mf/ln77q_8169b22g0vbjzzps1h0000gn/T//ccYnVDb0.s
+GNU C++14 (Homebrew GCC 8.5.0) version 8.5.0 (x86_64-apple-darwin20)
+	compiled by GNU C version 8.5.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/local/include"
+ignoring nonexistent directory "/usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0/../../../../../../x86_64-apple-darwin20/include"
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0/../../../../../../include/c++/8.5.0
+ /usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0/../../../../../../include/c++/8.5.0/x86_64-apple-darwin20
+ /usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0/../../../../../../include/c++/8.5.0/backward
+ /usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0/include
+ /usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0/include-fixed
+ /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/System/Library/Frameworks
+End of search list.
+GNU C++14 (Homebrew GCC 8.5.0) version 8.5.0 (x86_64-apple-darwin20)
+	compiled by GNU C version 8.5.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 6315389f2d526ef35bef82e932f943bf
+COLLECT_GCC_OPTIONS='-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk' '-v' '-o' 'CMakeFiles/cmTC_8007e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=core2'
+ as -arch x86_64 -v -force_cpusubtype_ALL -o CMakeFiles/cmTC_8007e.dir/CMakeCXXCompilerABI.cpp.o /var/folders/mf/ln77q_8169b22g0vbjzzps1h0000gn/T//ccYnVDb0.s
+Apple clang version 13.1.6 (clang-1316.0.21.2.5)
+Target: x86_64-apple-darwin21.1.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1as -triple x86_64-apple-macosx12.0.0 -filetype obj -main-file-name ccYnVDb0.s -target-cpu penryn "-fdebug-compilation-dir=/Users/zhaoa/OneDrive - 华南师范大学/桌面/daisy/第三篇论文/code/build/CMakeFiles/CMakeTmp" -dwarf-debug-producer "Apple clang version 13.1.6 (clang-1316.0.21.2.5)" -dwarf-version=4 -mrelocation-model pic --mrelax-relocations -mllvm -disable-aligned-alloc-awareness=1 -o CMakeFiles/cmTC_8007e.dir/CMakeCXXCompilerABI.cpp.o /var/folders/mf/ln77q_8169b22g0vbjzzps1h0000gn/T//ccYnVDb0.s
+COMPILER_PATH=/usr/local/Cellar/gcc@8/8.5.0/libexec/gcc/x86_64-apple-darwin20/8.5.0/:/usr/local/Cellar/gcc@8/8.5.0/libexec/gcc/x86_64-apple-darwin20/8.5.0/:/usr/local/Cellar/gcc@8/8.5.0/libexec/gcc/x86_64-apple-darwin20/:/usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0/:/usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/
+LIBRARY_PATH=/usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0/:/usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0/../../../
+COLLECT_GCC_OPTIONS='-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk' '-v' '-o' 'CMakeFiles/cmTC_8007e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=core2'
+[2/2] Linking CXX executable cmTC_8007e
+FAILED: cmTC_8007e 
+: && /usr/local/bin/g++-8 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v -Wl,-v CMakeFiles/cmTC_8007e.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_8007e   && :
+g++-8: warning: '12.0' is not valid for 'mmacosx-version-min'
+
+Using built-in specs.
+COLLECT_GCC=/usr/local/bin/g++-8
+COLLECT_LTO_WRAPPER=/usr/local/Cellar/gcc@8/8.5.0/libexec/gcc/x86_64-apple-darwin20/8.5.0/lto-wrapper
+Target: x86_64-apple-darwin20
+Configured with: ../configure --prefix=/usr/local/Cellar/gcc@8/8.5.0 --libdir=/usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8 --disable-nls --enable-checking=release --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-8 --with-gmp=/usr/local/opt/gmp --with-mpfr=/usr/local/opt/mpfr --with-mpc=/usr/local/opt/libmpc --with-isl=/usr/local/opt/isl --with-pkgversion='Homebrew GCC 8.5.0' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --build=x86_64-apple-darwin20 --with-system-zlib --disable-multilib --with-native-system-header-dir=/usr/include --with-sysroot=/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk --without-build-config
+Thread model: posix
+gcc version 8.5.0 (Homebrew GCC 8.5.0) 
+COMPILER_PATH=/usr/local/Cellar/gcc@8/8.5.0/libexec/gcc/x86_64-apple-darwin20/8.5.0/:/usr/local/Cellar/gcc@8/8.5.0/libexec/gcc/x86_64-apple-darwin20/8.5.0/:/usr/local/Cellar/gcc@8/8.5.0/libexec/gcc/x86_64-apple-darwin20/:/usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0/:/usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/
+LIBRARY_PATH=/usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0/:/usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0/../../../
+COLLECT_GCC_OPTIONS='-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk' '-v' '-o' 'cmTC_8007e' '-shared-libgcc' '-mtune=core2'
+ /usr/local/Cellar/gcc@8/8.5.0/libexec/gcc/x86_64-apple-darwin20/8.5.0/collect2 -dynamic -arch x86_64 -multiply_defined suppress -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -weak_reference_mismatches non-weak -o cmTC_8007e -lcrt1.o /usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0/crt3.o -L/usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0 -L/usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_8007e.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lgcc_s.10.4 -lgcc_ext.10.4 -lgcc -lSystem -v
+collect2 version 8.5.0
+/usr/bin/ld -dynamic -arch x86_64 -multiply_defined suppress -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -weak_reference_mismatches non-weak -o cmTC_8007e -lcrt1.o /usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0/crt3.o -L/usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0 -L/usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0/../../.. -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_8007e.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lgcc_s.10.4 -lgcc_ext.10.4 -lgcc -lSystem -v
+@(#)PROGRAM:ld  PROJECT:ld64-764
+BUILD 11:22:50 Apr 28 2022
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+@(#)PROGRAM:ld  PROJECT:ld64-764
+BUILD 11:22:50 Apr 28 2022
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8/gcc/x86_64-apple-darwin20/8.5.0
+	/usr/local/Cellar/gcc@8/8.5.0/lib/gcc/8
+	/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/lib
+Framework search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/
+ld: library not found for -lgcc_s.10.4
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+
+
+Determining if the CXX compiler works failed with the following output:
+Change Dir: /Users/zhaoa/OneDrive - 华南师范大学/桌面/daisy/第三篇论文/code/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/anaconda3/bin/ninja cmTC_06c69 && [1/2] Building CXX object CMakeFiles/cmTC_06c69.dir/testCXXCompiler.cxx.o
+g++-8: warning: '12.0' is not valid for 'mmacosx-version-min'
+
+[2/2] Linking CXX executable cmTC_06c69
+FAILED: cmTC_06c69 
+: && /usr/local/bin/g++-8 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTC_06c69.dir/testCXXCompiler.cxx.o -o cmTC_06c69   && :
+g++-8: warning: '12.0' is not valid for 'mmacosx-version-min'
+
+ld: library not found for -lgcc_s.10.4
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+
