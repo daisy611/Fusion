@@ -1,3 +1,0 @@
-add_executable(EXECUTALBLE_NAME main.cpp sirnn_fixed.cpp)
-target_include_directories(EXECUTALBLE_NAME PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
-target_link_libraries(EXECUTALBLE_NAME SCI::SCI-OT)
