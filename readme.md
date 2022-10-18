@@ -10,7 +10,7 @@ We predict the data set by T public samples and R*B request samples, and then we
 
 ## How To Run
 
-In order to determine the values of R and B, we test the two values and determine the final data to be used by testB.py. 
+In order to determine the values of R and B, we test the two values and determine the final data to be used by Test.py. 
 
 In the use data section we randomly sample the three datasets to request samples and open samples to determine the final number of samples to use.
 
