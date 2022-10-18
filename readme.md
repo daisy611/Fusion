@@ -35,7 +35,7 @@ Deevashwer Rathee, Mayank Rathee, Nishant Kumar, Nishanth Chandran, Divya Gupta,
 
 
 
-[Delphi: A Cryptographic Inference Service for Neural Networks_](https://eprint.iacr.org/2020/050.pdf)   
+[Delphi: A Cryptographic Inference Service for Neural Networks](https://eprint.iacr.org/2020/050.pdf)   
 
 Pratyush Mishra, Ryan Lehmkuhl, Akshayaram Srinivasan, Wenting Zheng, Raluca Ada Popa
 
