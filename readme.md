@@ -25,11 +25,15 @@ Zhicong Huang, Wen-jie Lu, Cheng Hong, and Jiansheng Ding
 
 *USENIX Security 2022*
 
+
+
 [CrypTFlow2: Practical 2-Party Secure Inference](https://eprint.iacr.org/2020/1002)  
 
 Deevashwer Rathee, Mayank Rathee, Nishant Kumar, Nishanth Chandran, Divya Gupta, Aseem Rastogi, Rahul Sharma 
 
 *ACM CCS 2020*
+
+
 
 [Delphi: A Cryptographic Inference Service for Neural Networks_](https://eprint.iacr.org/2020/050.pdf)   
 
@@ -43,11 +47,15 @@ Daniel Demmler, Thomas Schneider and Michael Zohner
 
 *NDSS 2015*
 
+
+
 [Practical Black-Box Attacks against Machine Learning](https://arxiv.org/pdf/1602.02697v4.pdf)
 
 Nicolas Papernot, Patrick McDaniel, Ian Goodfellow, Somesh Jha, Z. Berkay Celik, Ananthram Swami 
 
 *AsiaCCS 2017*
+
+
 
 [Cryptanalytic Extraction of Neural Network Models](https://link.springer.com/chapter/10.1007/978-3-030-56877-1_7)
 
