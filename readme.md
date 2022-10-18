@@ -1,6 +1,6 @@
-# ASG
+# Fusion
 
-Inference**
+## Inference
 
 This library provides a more secure solution to machine learning about malicious security.
 
